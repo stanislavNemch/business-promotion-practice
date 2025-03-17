@@ -1,0 +1,274 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Montserrat", sans-serif;
+    --font3: "FontAwesome", sans-serif;
+    --font4: "Roboto", sans-serif;
+    --font5: "ProximaNova", sans-serif;
+    --font6: "Asap Condensed", sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #22343d;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.flex-block {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 39px;
+    height: 36px;
+    margin: 22px 16px 22px 146px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.9;
+    color: #173a56;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li:first-child a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 26px 0 26px 237px;
+    padding: 0;
+    gap: 30px;
+    align-items: center;
+}
+
+.header-buttons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 19px 148px 19px 73px;
+}
+
+.header-buttons li + li {
+    margin-left: 21px;
+    margin-right: 148px;
+}
+
+.header-buttons li button {
+    width: 105px;
+    height: 42px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid #bcd0e5;
+    text-align: center;
+    color: #173a56;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-buttons li button:hover,
+.header-buttons li button:focus {
+    background-color: #02897a;
+    color: #fff;
+    border: none;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin: 25px 145px 100px 145px;
+}
+
+.hero-text {
+    margin-right: 35px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    max-width: 465px;
+}
+
+.hero-image {
+    width: 610px;
+    height: 555px;
+}
+
+.hero-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.hero-text h1 {
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.hero-text p {
+    margin-bottom: 45px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+}
+
+.hero-links li {
+    display: flex;
+    align-items: center;
+}
+
+.hero-links a {
+    display: flex;
+    align-items: center;
+    color: #02897a;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.hero-links .icon {
+    width: 16px;
+    height: 18px;
+    margin-right: 5px;
+    fill: #02897a;
+}
+
+.hero-links button {
+    width: 178px;
+    height: 53px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    border: 1px solid #bcd0e5;
+    text-align: center;
+    color: #173a56;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-links button:hover,
+.hero-links button:focus {
+    background-color: #02897a;
+    color: #fff;
+    border: none;
+}
+
+.product-features-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+}
+
+.product-features-text {
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.features-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: nowrap;
+    margin-left: 145px;
+    margin-right: 145px;
+    margin-bottom: 50px;
+}
+
+.features-list li {
+    max-width: 255px;
+    text-align: left;
+}
+
+.features-list img {
+    border-radius: 19px;
+    width: 54px;
+    height: 54px;
+}
+
+.product-features-button button {
+    display: block;
+    margin: 0 auto;
+    width: 175px;
+    height: 53px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background-color: #02897a;
+    border: none;
+}
