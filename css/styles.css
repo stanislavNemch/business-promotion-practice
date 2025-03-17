@@ -272,3 +272,53 @@ nav ul {
     background-color: #02897a;
     border: none;
 }
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: #f8f8f8; /* Adjust as needed */
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0; /* Adjust spacing between columns as needed */
+}
+
+.logo {
+    margin-right: 146px;
+}
+
+.footer-column h3 {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo {
+    width: 39px;
+    height: 36px;
+    margin: 22px 16px 22px 146px;
+}
