@@ -459,6 +459,28 @@ nav ul {
     margin: 0;
 }
 
+.customer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.customer-list li {
+    margin-bottom: 20px;
+}
+
+.customer-list p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.customer-list .icon {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+}
+
 /* Footer */
 
 .footer-column-block {
