@@ -16,20 +16,23 @@
 </head>
 
 <body>
+
     <header>
-        <nav>
-            <a class="logo" href="./index.html"><img src="./images/logo.png" alt="logo" />Product</a>
-            <ul class="nav-links">
-                <li><a href="./index.html">Product</a></li>
-                <li><a href="./prising.html">Pricing</a></li>
-                <li><a href="./customer.html">Customers</a></li>
-                <li><a href="./resources.html">Resources</a></li>
+        <div class="flex-block container">
+            <nav>
+                <a class="logo" href="./index.html"><img src="./images/logo.png" alt="logo" />Product</a>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Product</a></li>
+                    <li><a href="./prising.html">Pricing</a></li>
+                    <li><a href="./customer.html">Customers</a></li>
+                    <li><a href="./resources.html">Resources</a></li>
+                </ul>
+            </nav>
+            <ul class="header-buttons">
+                <li><button type="button">Sign In</button></li>
+                <li><button type="button">Sign Up</button></li>
             </ul>
-        </nav>
-        <ul class="header-buttons">
-            <li><button type="button">Sign In</button></li>
-            <li><button type="button">Sign Up</button></li>
-        </ul>
+        </div>
     </header>
 
     <main>
@@ -105,38 +108,71 @@
     </main>
 
     <footer>
-        <nav class="footer-nav">
-            <ul class="footer-links">
-                <li>
-                    <a href="./index.html"><img src="./images/logo.png" alt="logo" />Product</a>
-                    <img src="./images/socials.png" alt="socials icon">
-                </li>
-                <li>
-                    <h3>Resource</h3>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>Legal Stuff</h3>
-                    <ul>
-                        <li><a href="#">Disclaimer</a></li>
-                        <li><a href="#">Financing</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <p>knowing you're always on the best energy deal.</p>
-                    <img src="./images/telefone.png" alt="telefone icon">
-                    <input type="text" placeholder="Enter your phone number">
-                    <button type="button">Sign up Now</button>
-                </li>
-            </ul>
-        </nav>
-        <p>Made With Love by Figmaland All Right Reserved</p>
+        <div class="flex-block container">
+            <div class="footer-column-block">
+                <nav class="footer-nav">
+                    <div class="footer-logo">
+                        <a class="logo" href="./index.html"><img src="./images/logo.png" alt="logo" />Product</a>
+                        <ul class="footer-social-list">
+                            <li class="social-item">
+                                <a class="social-link" href="https://www.instagram.com" target="_blank"
+                                    rel="noopener noreferer">
+                                    <svg class="social-icon" width="24" height="24">
+                                        <use href="./images/icons.svg#instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link" href="https://www.facebook.com" target="_blank"
+                                    rel="noopener noreferer">
+                                    <svg class="social-icon" width="24" height="24">
+                                        <use href="./images/icons.svg#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a class="social-link" href="https://www.twitter.com" target="_blank"
+                                    rel="noopener noreferer">
+                                    <svg class="social-icon" width="24" height="24">
+                                        <use href="./images/icons.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-column-resource">
+                        <h3>Resource</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column-legal">
+                        <h3>Legal Stuff</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Disclaimer</a></li>
+                            <li><a href="#">Financing</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column-signup">
+                        <h3>knowing you're always on the best energy deal.</h3>
+                        <div class="input-block-container">
+                            <input type="tel" placeholder="Enter your phone number" class="contact-form-input">
+                            <button type="button">Sign up Now</button>
+                            <svg class="contact-form-icon" width="18" height="28">
+                                <use href="./images/icons.svg#mobile-screen"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </nav>
+                <div class="footer-copyright">
+                    <p>Made With Love by Figmaland All Right Reserved</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>
