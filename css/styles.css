@@ -289,14 +289,59 @@ nav ul {
 
 .companies-product-block {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
+    padding: 20px;
     border-radius: 32px;
     width: 968px;
     height: 345px;
     background-color: #02897a;
     margin: 0 auto;
+}
+
+.companies-product-block .companies-product-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.companies-product-block .companies-product-content h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.companies-product-block .companies-product-content button {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #02897a;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.companies-product-block .companies-product-content button:hover,
+.companies-product-block .companies-product-content button:focus {
+    background-color: #025a4a;
+    color: #fff;
+}
+
+.companies-product-block .companies-product-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.companies-product-block .companies-product-image img {
+    border-radius: 5px;
+    width: 351px;
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
 }
 
 /* Footer */
