@@ -47,6 +47,7 @@ body {
 .container {
     max-width: 1400px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .flex-block {
@@ -291,7 +292,6 @@ nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
     border-radius: 32px;
     width: 968px;
     height: 345px;
@@ -304,24 +304,30 @@ nav ul {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .companies-product-block .companies-product-content h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.5;
     color: #fff;
+    margin: 49px 0 46px 51px;
 }
 
 .companies-product-block .companies-product-content button {
     display: block;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 700;
+    padding: 10px 34px;
+    margin-left: 51px;
+    margin-bottom: 56px;
+    font-weight: 600;
+    font-size: 20px;
     color: #02897a;
     background-color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -335,12 +341,14 @@ nav ul {
 .companies-product-block .companies-product-image {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .companies-product-block .companies-product-image img {
     border-radius: 5px;
-    width: 351px;
+    height: 331px;
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
 }
 
