@@ -442,12 +442,86 @@ nav ul {
     flex-shrink: 0;
 }
 
+/* Contents Strategies */
+
+.contents-strategies-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 145px 171px 145px;
+}
+
+.text-content {
+    text-align: left;
+}
+
+.text-content h2 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    margin-bottom: 40px;
+}
+
+.contents-strategies-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.contents-strategies-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 30px;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    max-width: 350px;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.contents-strategies-list li:last-child {
+    margin-right: 0;
+}
+
+.contents-strategies-list li:hover,
+.contents-strategies-list li:focus {
+    border-color: #02897a;
+}
+
+.contents-strategies-list li img {
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+
+.contents-strategies-list li p {
+    margin: 24px 0 12px 24px;
+}
+
+.contents-strategies-list li h3 {
+    margin: 0 0 40px 27px;
+    transition: color 0.3s ease;
+}
+
+.contents-strategies-list li:hover h3,
+.contents-strategies-list li:focus h3 {
+    color: #02897a;
+}
+
 /* Quick & Easy Process */
 
 .quick-easy-process {
     text-align: center;
-    width: 916px;
-    margin: 0 auto;
+    margin: 0 242px 100px 242px;
 }
 
 .quick-easy-process h2,
