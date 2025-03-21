@@ -296,8 +296,7 @@ nav ul {
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    color: #fff;
-    background-color: #02897a;
+    color: #173a56;
     border: 1px solid #bcd0e5;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -306,6 +305,8 @@ nav ul {
 .product-features-button button:hover,
 .product-features-button button:focus {
     background-color: #026f5c;
+    color: #fff;
+    border: none;
 }
 
 /* Companies Join 100+ Companies who boost their business with Product */
@@ -358,6 +359,7 @@ nav ul {
 .companies-product-block .companies-product-content button:focus {
     background-color: #025a4a;
     color: #fff;
+    border: none;
 }
 
 .companies-product-block .companies-product-image {
@@ -890,16 +892,17 @@ nav ul {
     padding: 10px 20px;
     /font-weight: 700;
     font-size: 16px;
-    color: #fff;
-    background-color: #02897a;
-    border: none;
+    border: 1px solid #bcd0e5;
     border-radius: 4px;
-    cursor: pointer;
+    text-align: center;
+    color: #173a56;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-button:hover,
 .contact-button:focus {
     background-color: #026f5c;
+    color: #fff;
 }
 
 /* Footer */
