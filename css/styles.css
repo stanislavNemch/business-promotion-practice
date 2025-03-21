@@ -369,9 +369,7 @@ nav ul {
 }
 
 .companies-product-block .companies-product-image img {
-    border-radius: 5px;
     height: 331px;
-    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
 }
 
 /* Management section Effortless Validation for */
@@ -816,9 +814,19 @@ nav ul {
     margin: 0 242px 100px 242px;
 }
 
-.quick-easy-process h2,
+.quick-easy-process h2 {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 .quick-easy-process p {
-    margin-bottom: 20px; /* Adjust spacing as needed */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .service-list {
@@ -826,64 +834,72 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    list-style: none;
-    padding: 0;
-    margin: 20px 0; /* Adjust spacing as needed */
 }
 
 .service-list li {
     display: flex;
     align-items: center;
-    width: 45%; /* Adjust width as needed */
-    margin-bottom: 20px; /* Adjust spacing as needed */
-}
-
-.service-list li img {
-    width: 100px; /* Adjust image size as needed */
-    height: auto;
-    margin-left: 10px; /* Adjust spacing as needed */
+    margin-bottom: 20px;
 }
 
 .service-list li p {
-    margin: 0;
+    margin: 0 auto;
+    padding: 10px 20px; /* Add padding for better spacing */
+    border: 1px solid #dedede;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #2f281e;
+    box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15); /* Background color for the container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-list li img {
+    width: 100px;
+    height: auto;
+}
+
+.service-list li:first-child p,
+.service-list li:last-child p {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.service-list li:nth-child(2) p,
+.service-list li:nth-child(3) p {
+    margin-right: 20px;
+    padding-right: 20px;
 }
 
 .service-list li.reverse {
     flex-direction: row-reverse;
 }
 
-.service-list li.reverse img {
-    margin-right: 0;
-    margin-left: 10px; /* Adjust spacing as needed */
-}
-
 .service-list li.text-left {
     flex-direction: row;
-}
-
-.service-list li.text-left img {
-    margin-left: 0;
-    margin-right: 20px; /* Adjust spacing as needed */
 }
 
 .contact-button {
     display: block;
     width: 216px;
     height: 53px;
-    margin: 20px auto; /* Center the button and adjust spacing as needed */
-    padding: 10px 20px; /* Adjust padding as needed */
-    font-weight: 700;
+    margin: 20px auto;
+    padding: 10px 20px;
+    /font-weight: 700;
     font-size: 16px;
     color: #fff;
-    background-color: #02897a; /* Adjust background color as needed */
+    background-color: #02897a;
     border: none;
-    border-radius: 4px; /* Adjust border radius as needed */
+    border-radius: 4px;
     cursor: pointer;
 }
 
 .contact-button:hover,
 .contact-button:focus {
-    background-color: #026f5c; /* Adjust hover background color as needed */
+    background-color: #026f5c;
 }
 
 /* Footer */
