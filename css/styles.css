@@ -693,6 +693,112 @@ nav ul {
 
 /* What Clients Say */
 
+.what-clients-say-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0 145px 100px 145px;
+}
+
+.what-clients-say-block h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.78;
+    letter-spacing: 0.01em;
+    margin-bottom: 10px;
+}
+
+.what-clients-say-block p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 286px;
+    margin-right: 286px;
+}
+
+/* Clients Say List */
+.clients-say-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    gap: 30px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Client Say Item */
+.client-say-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    width: 327px;
+    height: 240px;
+    text-align: left;
+}
+
+.client-say-item .quote-icon {
+    margin: 28px 0 16px 26px;
+}
+
+.client-say-item p {
+    margin: 0 0 17px 26px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    color: #737373;
+    text-align: left;
+}
+
+.client-say-item .client-info {
+    display: flex;
+    align-items: center;
+    margin: 0 0 28px 26px;
+}
+
+.client-say-item .client-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.client-say-item .client-name {
+    font-weight: bold;
+}
+
+.client-say-item .client-details {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 14px;
+}
+
+.client-say-item .client-details h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #02897a;
+}
+
+.client-say-item .client-details p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+    color: #252b42;
+    margin: 0;
+}
+
 /* Quick & Easy Process */
 
 .quick-easy-process {
