@@ -1119,3 +1119,134 @@ nav ul {
     color: #fff;
     border: none;
 }
+
+/* Product is being used */
+
+.product-alongside-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 114px 6px 155px;
+}
+
+.product-alongside-block h2 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 56px;
+}
+
+.alongside-content-block {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.main-alongside-image {
+    width: 528px;
+    height: auto;
+    margin-right: 60px;
+    margin-top: 24px;
+}
+
+.product-alongside-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.product-alongside-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.product-alongside-block .image-and-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.product-alongside-block .alongside-image {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.product-alongside-block .alongside-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    margin: 0;
+    text-align: left;
+}
+
+/* Frequently asked question */
+
+.faq-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 240px 150px 240px;
+}
+
+.faq-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 180px 50px 180px;
+}
+
+.faq-header h2 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+
+.faq-header p {
+    font-weight: 400;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.faq-content {
+    width: 100%;
+}
+.faq-list {
+    width: 100%;
+}
+
+.faq-list li {
+    margin-bottom: 16px;
+    padding: 22px;
+}
+
+.faq-list h4 {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.faq-list p {
+    display: none; /* Initially hide the paragraphs */
+    margin: 14px 0 0 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.faq-list h4 .faq-icon {
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.faq-list h4.active .faq-icon use {
+    href: ./images/icons.svg#minus-circle; /* Change the icon when active */
+}
