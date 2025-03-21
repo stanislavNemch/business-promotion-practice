@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body>
+<body class="pricing-page">
 
     <header>
         <div class="flex-block container">
@@ -37,72 +37,97 @@
 
     <main>
 
-        <section class="pricing">
-            <h3>PRICING</h3>
-            <h1>Let’s get some real work done here.</h1>
-            <p>Prodict is your perfect solution for working. Get started now for free</p>
-            <ul class="price-table-list">
-                <li>
-                    <h3>Free</h3>
-                    <p>Brief price description</p>
-                    <ul>
-                        <li>0$ Per/month</li>
-                        <li>Only 2 Operators</li>
-                        <li>Notifications</li>
-                        <li>Landing Pages</li>
+        <section class="price-table">
+            <div class="flex-block container">
+                <div class="price-table-section">
+                    <div class="price-table-header">
+                        <h1>PRICING</h1>
+                        <h2>Let’s get some real work done here.</h2>
+                        <p>Prodict is your perfect solution for working. Get started now for free</p>
+                    </div>
+                    <ul class="price-table-list">
+                        <li class="price-table-item">
+                            <h3>Free</h3>
+                            <p>Brief price description</p>
+                            <div class="price">
+                                <span class="dollar-sign">$</span>
+                                <span class="amount">0</span>
+                                <div class="per-month">Per/month</div>
+                            </div>
+                            <ul>
+                                <li>Only 2 Operators</li>
+                                <li>Notifications</li>
+                                <li>Landing Pages</li>
+                            </ul>
+                            <button type="button">Order Now</button>
+                        </li>
+                        <li class="price-table-item">
+                            <h3>Standard</h3>
+                            <p>Brief price description</p>
+                            <div class="price">
+                                <span class="dollar-sign">$</span>
+                                <span class="amount">5</span>
+                                <div class="per-month">Per/month</div>
+                            </div>
+                            <ul>
+                                <li>5 Operators</li>
+                                <li>Notifications</li>
+                                <li>Landing Pages</li>
+                            </ul>
+                            <button type="button">Order Now</button>
+                        </li>
+                        <li class="price-table-item">
+                            <h3>Premium</h3>
+                            <p>Brief price description</p>
+                            <div class="price">
+                                <span class="dollar-sign">$</span>
+                                <span class="amount">10</span>
+                                <div class="per-month">Per/month</div>
+                            </div>
+                            <ul>
+                                <li>10+ Operators</li>
+                                <li>Notifications</li>
+                                <li>Landing Pages</li>
+                            </ul>
+                            <button type="button">Order Now</button>
+                        </li>
                     </ul>
-                    <button type="button">Order Now</button>
-                </li>
-                <li>
-                    <h3>Standard</h3>
-                    <p>Brief price description</p>
-                    <ul>
-                        <li>5$ Per/month</li>
-                        <li>5 Operators</li>
-                        <li>Notifications</li>
-                        <li>Landing Pages</li>
-                    </ul>
-                    <button type="button">Order Now</button>
-                </li>
-                <li>
-                    <h3>Premium</h3>
-                    <p>Brief price description</p>
-                    <ul>
-                        <li>10$ Per/month</li>
-                        <li>10+ Operators</li>
-                        <li>Notifications</li>
-                        <li>Landing Pages</li>
-                    </ul>
-                    <button type="button">Order Now</button>
-                </li>
-            </ul>
+                </div>
+            </div>
         </section>
 
         <section class="enterprise">
-            <h3>ENTERPRISE</h3>
-            <h2>Are you interested in a custom-tailored plan?</h2>
-            <p>Product is a set of advanced features for really large teams with projects.</p>
-            <button type="button">Get in touch with us</button>
+            <div class="flex-block container">
+                <div class="enterprise-plan">
+                    <h3>ENTERPRISE</h3>
+                    <h2>Are you interested in a custom-tailored plan?</h2>
+                    <p>Product is a set of advanced features for really large teams with projects.</p>
+                    <button type="button">Get in touch with us</button>
+                </div>
+            </div>
         </section>
 
         <section class="product-alongside">
-            <h2>Product is being used with great effects alongside:</h2>
-            <img src="./images/customer/amico.png" alt="Product is being used with great effects alongside">
-            <ul class="product-alongside-list">
-                <li><img src="./images/customer/enterpreneur-icon.png" alt="Enterpreneur icon">
-                    <h3>Enterpreneur</h3>
-                    <p>Product is a great way to help medium and samall enterprise owners achieve their goals</p>
-                </li>
-                <li><img src="./images/customer/accountants-icon.png" alt="Accountants icon">
-                    <h3>Accountants</h3>
-                    <p>Whether you are working on contract with clients, or on other key accounting documents, Product
-                        is for you</p>
-                </li>
-                <li><img src="./images/customer/universities-icon.png" alt="Universities icon">
-                    <h3>Universities</h3>
-                    <p>Organize university projects and have documents easily graded online with Product</p>
-                </li>
-            </ul>
+            <div class="flex-block container">
+                <h2>Product is being used with great effects alongside:</h2>
+                <img src="./images/customer/amico.png" alt="Product is being used with great effects alongside">
+                <ul class="product-alongside-list">
+                    <li><img src="./images/customer/enterpreneur-icon.png" alt="Enterpreneur icon">
+                        <h3>Enterpreneur</h3>
+                        <p>Product is a great way to help medium and samall enterprise owners achieve their goals</p>
+                    </li>
+                    <li><img src="./images/customer/accountants-icon.png" alt="Accountants icon">
+                        <h3>Accountants</h3>
+                        <p>Whether you are working on contract with clients, or on other key accounting documents,
+                            Product
+                            is for you</p>
+                    </li>
+                    <li><img src="./images/customer/universities-icon.png" alt="Universities icon">
+                        <h3>Universities</h3>
+                        <p>Organize university projects and have documents easily graded online with Product</p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <section class="faq">
