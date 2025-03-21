@@ -236,18 +236,14 @@ nav ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
-}
-
-.product-features-block h3 {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 1.5;
+    margin: 0 145px 50px 145px;
 }
 
 .product-features-text {
     margin-bottom: 50px;
+}
+
+.product-features-text h2 {
     font-weight: 500;
     font-size: 32px;
     line-height: 1.5;
@@ -262,9 +258,21 @@ nav ul {
     padding: 0;
     margin: 0;
     flex-wrap: nowrap;
-    margin-left: 145px;
-    margin-right: 145px;
     margin-bottom: 50px;
+}
+
+.features-list h3 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 13px;
+}
+
+.features-list p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+    margin-bottom: 20px;
 }
 
 .features-list li {
@@ -276,11 +284,13 @@ nav ul {
     border-radius: 19px;
     width: 54px;
     height: 54px;
+    margin-bottom: 18px;
 }
 
 .product-features-button button {
     display: block;
     margin: 0 auto;
+    margin-bottom: 50px;
     width: 175px;
     height: 53px;
     border-radius: 4px;
