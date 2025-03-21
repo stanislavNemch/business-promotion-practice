@@ -561,7 +561,9 @@ nav ul {
 .price-table-item p,
 .price-table-item .price,
 .price-table-item ul,
-.price-table-item button {
+.price-table-item button,
+.price-table-item .dollar-sign,
+.price-table-item .amount {
     transition: color 0.3s ease;
 }
 
@@ -688,6 +690,8 @@ nav ul {
     background-color: #fff;
     color: #02897a;
 }
+
+/* What Clients Say */
 
 /* Quick & Easy Process */
 
@@ -870,7 +874,6 @@ nav ul {
     left: 12px;
     top: 35%;
     transform: translateY(-50%);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-form-input:focus,
