@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+    // FAQ toggle functionality
     const faqItems = document.querySelectorAll(".faq-list li");
 
     faqItems.forEach((item) => {
@@ -15,7 +16,29 @@ document.addEventListener("DOMContentLoaded", function () {
                 isVisible
                     ? "./images/icons.svg#plus-circle"
                     : "./images/icons.svg#minus-circle"
-            ); // Change the icon
+            );
+        });
+    });
+
+    // Price table item activation on hover
+    const initialActiveItem = document.querySelector(
+        ".price-table-item.active"
+    );
+    const priceTableItems = document.querySelectorAll(".price-table-item");
+
+    priceTableItems.forEach((item) => {
+        item.addEventListener("mouseenter", () => {
+            priceTableItems.forEach((i) => i.classList.remove("active"));
+            item.classList.add("active");
+        });
+
+        item.addEventListener("mouseleave", () => {
+            item.classList.remove("active");
+            if (!Array.from(priceTableItems).some((i) => i.matches(":hover"))) {
+                if (initialActiveItem) {
+                    initialActiveItem.classList.add("active");
+                }
+            }
         });
     });
 });
