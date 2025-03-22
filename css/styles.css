@@ -1341,3 +1341,51 @@ nav ul {
     margin-left: 38px;
     margin-right: 37px;
 }
+
+/* How Product Work? */
+
+.how-product-work-content {
+    text-align: center;
+}
+
+.how-product-work-content h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 73px;
+}
+
+.how-product-work-list {
+    max-width: 100%;
+}
+
+.how-product-work-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 187px;
+    max-width: 1027px;
+}
+
+.how-product-work-item:nth-child(odd) {
+    flex-direction: row;
+}
+
+.how-product-work-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.how-product-work-image {
+    width: 500px;
+    height: auto;
+    margin-right: 89px;
+}
+
+.how-product-work-item:nth-child(even) .how-product-work-image {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.how-product-work-text {
+    flex: 1;
+}
