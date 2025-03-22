@@ -1259,3 +1259,85 @@ nav ul {
 .faq-list h4.active .faq-icon use {
     href: ./images/icons.svg#minus-circle; /* Change the icon when active */
 }
+
+/* Customer Support */
+
+/* Our clients block*/
+
+.our-clients-content {
+    text-align: center;
+    margin: 100px 275px 117px 275px;
+}
+
+.our-clients-content h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.our-clients-list {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+/* Choose product block */
+
+.choose-product-content {
+    text-align: center;
+    margin-bottom: 101px;
+    width: 100%;
+}
+
+.choose-product-content h2 {
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.choose-product-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0 145px 68px 145px;
+}
+
+.choose-product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    width: 350px;
+    height: 305px;
+}
+
+.choose-product-item img {
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.choose-product-item h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.38;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 16px;
+    white-space: nowrap;
+}
+
+.choose-product-item p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 38px;
+    margin-right: 37px;
+}
