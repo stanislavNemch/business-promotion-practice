@@ -1262,10 +1262,6 @@ nav ul {
     transition: transform 0.3s ease;
 }
 
-.faq-list h4.active .faq-icon use {
-    href: ./images/icons.svg#minus-circle; /* Change the icon when active */
-}
-
 /* Customer Support */
 
 /* Our clients block*/
