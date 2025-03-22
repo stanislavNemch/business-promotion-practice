@@ -98,8 +98,8 @@ nav ul {
     padding: 0;
 }
 
-.nav-links li:first-child a {
-    font-weight: 600;
+.nav-links li a {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.75;
 }
@@ -111,6 +111,12 @@ nav ul {
     padding: 0;
     gap: 30px;
     align-items: center;
+}
+
+.nav-links a.active {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.75;
 }
 
 .header-buttons {
@@ -646,7 +652,7 @@ nav ul {
 }
 
 .price-table-list li:last-child .amount {
-    left: calc(84px - 20px);
+    left: calc(84px - 25px);
 }
 
 .price-table-item .amount {
