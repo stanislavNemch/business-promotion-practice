@@ -652,7 +652,7 @@ nav ul {
 }
 
 .price-table-list li:last-child .amount {
-    left: calc(84px - 25px);
+    left: calc(84px - 27px);
 }
 
 .price-table-item .amount {
