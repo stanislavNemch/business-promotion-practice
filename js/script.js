@@ -47,7 +47,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const currentPath = window.location.pathname.split("/").pop();
 
     navLinks.forEach((link) => {
-        if (link.getAttribute("href") === `./${currentPath}`) {
+        if (
+            link.getAttribute("href") === `./${currentPath}` ||
+            (currentPath === "" && link.getAttribute("href") === "./index.html")
+        ) {
             link.classList.add("active");
         }
     });
