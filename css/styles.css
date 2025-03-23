@@ -2,6 +2,10 @@
     --font-family: "Poppins", sans-serif;
     --second-family: "Inter", sans-serif;
     --third-family: "Montserrat", sans-serif;
+    --font3: "FontAwesome", sans-serif;
+    --font4: "Roboto", sans-serif;
+    --font5: "ProximaNova", sans-serif;
+    --font6: "Asap Condensed", sans-serif;
 }
 
 html {
@@ -545,6 +549,7 @@ nav ul {
 }
 
 .price-table-list {
+    font-family: var(--third-family);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -1738,6 +1743,7 @@ nav ul {
 }
 
 .contact-us-block .contact-form input {
+    font-family: var(--font4);
     border: 1px solid #e8e8e8;
     border-radius: 39px;
     padding: 19px 20px;
@@ -1752,6 +1758,7 @@ nav ul {
 }
 
 .contact-us-block .contact-form textarea {
+    font-family: var(--font4);
     border: 1px solid #e8e8e8;
     padding: 23px 20px;
     width: 728px;
@@ -1766,6 +1773,7 @@ nav ul {
 }
 
 .contact-us-block .contact-form button {
+    font-family: var(--font4);
     align-self: flex-start;
     border-radius: 35px;
     padding: 18px 38px;
