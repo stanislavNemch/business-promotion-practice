@@ -61,6 +61,12 @@ body {
     justify-content: center;
 }
 
+/* Dark theme styles */
+body.dark-theme {
+    background-color: #1f2e35;
+    color: #ffffff;
+}
+
 /* Header */
 
 .header-block {
@@ -141,6 +147,29 @@ body {
     background-color: #02897a;
     color: #fff;
     border: none;
+}
+
+.dark-theme-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    margin-top: 5px;
+    width: 32px;
+    height: 32px;
+    background-color: #f3f3f3;
+    padding: 4px;
+}
+
+.dark-theme-link a {
+    display: flex;
+    align-items: center;
+    color: inherit;
+}
+
+.dark-theme-icon {
+    width: 24px;
+    height: 24px;
 }
 
 /* Hero Work at the speed of thought */

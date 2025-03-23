@@ -54,4 +54,25 @@ document.addEventListener("DOMContentLoaded", function () {
             link.classList.add("active");
         }
     });
+
+    // Load theme preference from localStorage
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+        document.body.classList.add(savedTheme);
+    }
+
+    // Dark theme toggle
+    const darkThemeToggle = document.getElementById("dark-theme-toggle");
+
+    darkThemeToggle.addEventListener("click", function (event) {
+        event.preventDefault();
+        document.body.classList.toggle("dark-theme");
+
+        // Save the current theme to localStorage
+        if (document.body.classList.contains("dark-theme")) {
+            localStorage.setItem("theme", "dark-theme");
+        } else {
+            localStorage.removeItem("theme");
+        }
+    });
 });
