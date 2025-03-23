@@ -1563,6 +1563,7 @@ nav a {
 .hero-resources-list li:nth-child(2) a {
     font-weight: 400;
     font-size: 14px;
+    color: inherit;
 }
 
 .hero-resources-list button {
@@ -1664,6 +1665,7 @@ nav a {
     line-height: 1.44;
     display: inline-flex;
     align-items: center;
+    color: inherit;
 }
 
 .latest-stories-block a img {
