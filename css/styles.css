@@ -1604,7 +1604,8 @@ nav a {
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin: 0 145px 150px 145px;
+    margin: 0 130px 150px 130px;
+    padding: 0 15px;
 }
 
 .latest-stories-block h2 {
