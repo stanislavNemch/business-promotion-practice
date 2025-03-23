@@ -87,15 +87,7 @@ nav {
 nav a {
     display: flex;
     align-items: center;
-    text-decoration: none;
     color: inherit;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 .nav-links li a {
@@ -121,8 +113,6 @@ nav ul {
 
 .header-buttons {
     display: flex;
-    list-style: none;
-    padding: 0;
     margin: 19px 148px 19px 73px;
 }
 
