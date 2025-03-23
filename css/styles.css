@@ -265,6 +265,19 @@ body.dark-theme .header-buttons li button:focus {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Dark theme styles */
+body.dark-theme .hero-links button {
+    background-color: #02897a;
+    color: #fff;
+}
+
+body.dark-theme .hero-links button:hover,
+body.dark-theme .hero-links button:focus {
+    background-color: #1f2e35;
+    color: #fff;
+    border: 1px solid #bcd0e5;
+}
+
 .hero-links button:hover,
 .hero-links button:focus {
     background-color: #02897a;
@@ -275,11 +288,18 @@ body.dark-theme .header-buttons li button:focus {
 /* Product Features Product was Built Specifically for You */
 
 .product-features-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 0 50px 145px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Dark theme styles */
+
+body.dark-theme .product-features-block {
+    background: url("../images/bg-produckt.png") no-repeat center center;
+    background-size: cover;
 }
 
 .product-features-text {
@@ -339,6 +359,19 @@ body.dark-theme .header-buttons li button:focus {
     border: 1px solid #bcd0e5;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark theme styles */
+body.dark-theme .product-features-button button {
+    background-color: #02897a;
+    color: #fff;
+}
+
+body.dark-theme .product-features-button button:hover,
+body.dark-theme .product-features-button button:focus {
+    background-color: #1f2e35;
+    color: #fff;
+    border: 1px solid #bcd0e5;
 }
 
 .product-features-button button:hover,
@@ -579,6 +612,19 @@ body.dark-theme .header-buttons li button:focus {
     transition: background 0.3s ease, color 0.3s ease;
 }
 
+/* Dark theme styles */
+body.dark-theme .price-table-item {
+    background-color: #fff;
+    color: #1f2e35;
+}
+
+body.dark-theme .price-table-item:hover,
+body.dark-theme .price-table-item:focus,
+body.dark-theme .price-table-item.active {
+    background-color: #02897a;
+    color: #1f2e35;
+}
+
 .price-table-item h3,
 .price-table-item p,
 .price-table-item .price,
@@ -771,6 +817,12 @@ body.dark-theme .header-buttons li button:focus {
     text-align: left;
 }
 
+/* Dark theme styles */
+body.dark-theme .client-say-item {
+    background-color: #fff;
+    color: #1f2e35;
+}
+
 .client-say-item .quote-icon {
     margin: 28px 0 16px 26px;
 }
@@ -874,6 +926,12 @@ body.dark-theme .header-buttons li button:focus {
     justify-content: center;
 }
 
+/* Dark theme styles */
+body.dark-theme .service-list li p {
+    color: #2f281e;
+    background-color: #fff;
+}
+
 .service-list li img {
     width: 98px;
     height: auto;
@@ -914,6 +972,19 @@ body.dark-theme .header-buttons li button:focus {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Dark theme styles */
+body.dark-theme .contact-button {
+    background-color: #02897a;
+    color: #fff;
+}
+
+body.dark-theme .contact-button:hover,
+body.dark-theme .contact-button:focus {
+    background-color: #1f2e35;
+    color: #fff;
+    border: 1px solid #bcd0e5;
+}
+
 .contact-button:hover,
 .contact-button:focus {
     background-color: #026f5c;
@@ -938,6 +1009,11 @@ body.dark-theme .header-buttons li button:focus {
     font-size: 30px;
     line-height: 0.9;
     color: #173a56;
+}
+
+/* Dark theme styles */
+body.dark-theme .footer-logo .logo {
+    color: #fff;
 }
 
 .footer-logo .logo img {
@@ -1009,6 +1085,24 @@ body.dark-theme .header-buttons li button:focus {
 
 .input-block-container {
     position: relative;
+}
+
+/* Dark theme styles */
+body.dark-theme .input-block-container input {
+    background-color: #fff;
+    color: #1f2e35;
+}
+
+body.dark-theme .input-block-container button {
+    background-color: #02897a;
+    color: #fff;
+}
+
+body.dark-theme .input-block-container button:hover,
+body.dark-theme .input-block-container button:focus {
+    background-color: #1f2e35;
+    color: #fff;
+    border: 1px solid #bcd0e5;
 }
 
 .contact-form-input {
