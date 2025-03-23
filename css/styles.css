@@ -89,6 +89,11 @@ body.dark-theme {
     color: #173a56;
 }
 
+/* Dark theme styles */
+body.dark-theme .header-block .logo {
+    color: #fff;
+}
+
 .header-block nav {
     display: flex;
     align-items: center;
@@ -140,6 +145,19 @@ body.dark-theme {
     text-align: center;
     color: #173a56;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Dark theme styles */
+body.dark-theme .header-buttons li button {
+    background-color: #1f2e35;
+    color: #fff;
+}
+
+body.dark-theme .header-buttons li button:hover,
+body.dark-theme .header-buttons li button:focus {
+    background-color: #02897a;
+    color: #fff;
+    border: none;
 }
 
 .header-buttons li button:hover,
