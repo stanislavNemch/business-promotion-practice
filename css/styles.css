@@ -1735,10 +1735,17 @@ nav ul {
     height: 670px;
 }
 
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .contact-us-block .contact-form input {
     border: 1px solid #e8e8e8;
     border-radius: 39px;
     padding: 19px 20px;
+    margin-bottom: 45px;
     width: 768px;
     height: 54px;
     background: #f5f5f5;
@@ -1753,6 +1760,7 @@ nav ul {
     padding: 23px 20px;
     width: 728px;
     height: 147px;
+    margin-bottom: 45px;
     background: #f5f5f5;
     font-weight: 400;
     font-size: 15px;
@@ -1762,6 +1770,7 @@ nav ul {
 }
 
 .contact-us-block .contact-form button {
+    align-self: flex-start;
     border-radius: 35px;
     padding: 18px 38px;
     width: 145px;
