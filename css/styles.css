@@ -1605,7 +1605,6 @@ nav a {
     text-align: center;
     justify-content: center;
     margin: 0 130px 150px 130px;
-    padding: 0 15px;
 }
 
 .latest-stories-block h2 {
@@ -1630,7 +1629,7 @@ nav a {
 
 .latest-stories-list li {
     width: 348px;
-    margin-right: 16px;
+    margin-right: 32px;
     box-sizing: border-box;
     text-align: left;
 }
