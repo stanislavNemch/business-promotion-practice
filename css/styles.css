@@ -153,11 +153,10 @@ nav ul {
 
 /* Hero Work at the speed of thought */
 
-.hero {
+.hero-block {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
     margin: 25px 145px 100px 145px;
 }
 
