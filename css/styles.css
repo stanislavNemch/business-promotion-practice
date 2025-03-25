@@ -74,12 +74,14 @@ body.dark-theme {
     align-items: center;
     justify-content: space-between;
     margin: 0 145px;
+    padding-left: 15px;
 }
 
 .header-block img {
     width: 39px;
     height: 36px;
     margin-right: 16px;
+    margin-left: 15px;
 }
 
 .header-block .logo {
@@ -197,7 +199,6 @@ body.dark-theme .header-buttons li button:focus {
     align-items: center;
     justify-content: space-between;
     margin: 25px 145px 100px 145px;
-    padding-left: 15px;
 }
 
 .hero-text {
