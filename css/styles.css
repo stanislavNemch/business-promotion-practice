@@ -552,7 +552,7 @@ body.dark-theme .product-features-button button:focus {
     margin-right: 30px;
     border: 1px solid #dedede;
     border-radius: 8px;
-    max-width: 350px;
+    width: 350px;
     transition: border-color 0.3s ease, color 0.3s ease;
 }
 
@@ -566,9 +566,10 @@ body.dark-theme .product-features-button button:focus {
 }
 
 .contents-strategies-list li img {
-    width: auto;
+    max-width: 100%;
     height: auto;
-    margin-right: 10px;
+    margin: 0 auto;
+    border-radius: 8px 8px 0 0;
 }
 
 .contents-strategies-list li p {
